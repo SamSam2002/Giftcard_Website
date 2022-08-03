@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="Store">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nav_bar">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="logo">
+                            </xs:element>
+                            <xs:element name = "store_name" type="xs:string">
+                            </xs:element>
+                            <xs:element name = "tagline" type="xs:string">
+                            </xs:element>
+                            <xs:element name = "menu">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="Home"/>
+                                        <xs:element type="xs:string" name="About_us"/>
+                                        <xs:element type="xs:string" name="Products"/>
+                                        <xs:element type="xs:string" name="contact_us"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element type="xs:string" name="welcome"/>
+                <xs:element type="xs:string" name="About_Us">
+                </xs:element>
+                <xs:element name="Associates">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="h1"/>
+                            <xs:element name="images">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element  name="Rest"/>
+                                        <xs:element  name="Amazon"/>
+                                        <xs:element  name="xbox"/>
+                                        <xs:element  name="Netflix"/>
+                                        <xs:element  name="HB"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element type="xs:string" name="h2"/>
+                <xs:element name="PRODUCTS">
+                    <xs:complexType mixed="true">
+                        <xs:sequence>
+                            <xs:element name="Gift_card" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="card">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute type="xs:string" name="name" use="optional"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="gift_code" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="Availability"/>
+                                        <xs:element type="xs:string" name="type"/>
+                                        <xs:element type="xs:string" name="category"/>
+                                        <xs:element name="owner">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="Name"/>
+                                                    <xs:element name="Contact" minOccurs="0">
+                                                        <xs:complexType mixed="true">
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="Telephone" minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="city" minOccurs="0"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="price">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute type="xs:string" name="currency" use="optional"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="validity">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute type="xs:string" name="valid" use="optional"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="number_of_users"/>
+                                        <xs:element name = "discount">
+                                            <xs:complexType>
+                                              <xs:simpleContent>
+                                                  <xs:extension base="xs:string">
+                                                    <xs:attribute type="xs:string" name="available" use="optional"/>
+                                                  </xs:extension>
+                                              </xs:simpleContent>  
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="delivery_code" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="buy"/>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:string" name="id" use="optional"/>
+                                    <xs:attribute type="xs:string" name="type" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Footer">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="Cont"/>
+                            <xs:element name="contact_">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="Link" maxOccurs="unbounded" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="list">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="li" maxOccurs="unbounded" minOccurs="0">
+                                            <xs:complexType mixed="true">
+                                                <xs:sequence>
+                                                    <xs:element name="ENG" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute type="xs:string" name="countrycode"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="NEP" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute type="xs:string" name="countrycode"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element> 
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

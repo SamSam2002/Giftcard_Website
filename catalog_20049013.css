@@ -1,0 +1,363 @@
+/**For background of body **/
+Store {
+  background : #f2f2f2;
+}
+/**designing nav bar **/
+nav_bar {
+  display: flex;
+  background-color: #171c24;
+  position: relative;
+  top: 0;
+  height: 80px;
+}
+/**designing store name **/
+store_name {
+  display: flex;
+  list-style: none;
+  color: #edf0f1;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: cursive;
+  align-items: left;
+  margin: 20px 10px;
+}
+/**designing logo**/
+logo {
+  background-image: url(/logo.jpg);
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  margin-top: -6px;
+  overflow: hidden;
+  align-items: left;
+  line-height: 65px;
+  border-radius: 50%;
+  margin: 20px 0px;
+}
+/**designing tag line **/
+tagline {
+  display: flex;
+  list-style: none;
+  color: #edf0f1;
+  font-size: 10px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  line-height: 80px;
+  padding: 50, 400px;
+}
+/**For menu items in navigation bar **/
+menu {
+  float: right;
+  display: flex;
+  color: #edf0f1;
+  justify-content: space-between;
+  position: absolute;
+  left: 1000px;
+}
+/**For menu items in navigation bar **/
+Home,
+About_us,
+Products,
+contact_us {
+  padding: 5px 10px;
+  margin: 10px;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+/**For hover effects in menu items in navigation bar **/
+contact_us:hover {
+  color: burlywood ;
+  cursor: pointer;
+}
+Home:hover {
+  color: burlywood;
+  cursor: pointer;
+}
+Products:hover {
+  color: burlywood;
+  cursor: pointer;
+}
+About_us:hover {
+  color: burlywood;
+  cursor: pointer;
+}
+/**designing welcome message **/
+welcome{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #171c24;
+  position: absolute;
+  top: 100px;
+  text-align: center;
+  margin-left: 400px;
+  font-weight: bold;
+
+}
+/**designing About_Us section**/
+About_Us {
+  padding: 10px, 20px, 20px, 10px ;
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 60rem;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+  text-align: center;
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  background:linear-gradient(white, gray);
+  color: black;
+  transition: transform 0.2s;
+  
+}
+/**hover effect on about us**/
+About_Us:hover{
+  transform: scale(1.5);
+}
+/**design Our Associates **/
+h1 {
+  margin-top: 200px;
+  text-align: center;
+  position: absolute;
+  top: 250px;
+  left: 580px;
+  font-size: 28px;
+  font-weight: bold;
+  color:#171c24;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: whitesmoke;
+}
+/**designing image in associates section**/
+Rest {
+  margin-top: 300px;
+  position: absolute;
+  padding: 2rem;
+  top: 250px;
+  left: 20px;
+  background-image: url(TheRestaurantchoice.png);
+  width: 25%;
+  height: 20%;
+  display: block;
+  float: left;
+  transition: transform 0.2s;
+}
+Rest:hover {
+  transform: scale(1.5);
+}
+Amazon {
+  margin-top: 300px;
+  position: absolute;
+  padding: 2rem;
+  left: 480px;
+  top: 250px;
+  background-image: url(ama.png);
+  display: block;
+  float: left;
+  width: 18%;
+  height: 20%;
+  transition: transform 0.2s;
+}
+Amazon:hover {
+  transform: scale(1.5);
+}
+xbox {
+  margin-top: 300px;
+  position: absolute;
+  padding: 2rem;
+  top: 250px;
+  left: 830px;
+  background-image: url(Xbox-Logo.png);
+  display: block;
+  float: left;
+  width: 10%;
+  height: 20%;
+  transition: transform 0.2s;
+}
+xbox:hover {
+  transform: scale(1.5);
+}
+Netflix {
+  margin-top: 300px;
+  position: absolute;
+  padding: 2rem;
+  left: 1060px;
+  top: 250px;
+  background-image: url(netflix.jpg);
+  display: block;
+  float: left;
+  width: 12%;
+  height: 20%;
+  transition: transform 0.2s;
+}
+Netflix:hover {
+  transform: scale(1.5);
+}
+HB {
+  margin-top: 300px;
+  font-size: 32px;
+  position: absolute;
+  padding: 2rem;
+  left: 1320px;
+  top: 250px;
+  background-image: url(Hamrobajar.png);
+  display: block;
+  float: left;
+  width: 12%;
+  height: 20%;
+  transition: transform 0.2s;
+}
+HB:hover {
+  transform: scale(1.5);
+}
+/**designing our products section**/
+h2 {
+  margin-top: 600px;
+  position: absolute;
+  top: 200px;
+  left: 600px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #171c24;
+  font-family: "Times New Roman", Times, serif;
+  font-weight:bold ;
+}
+/** designing gift card**/
+Gift_card {
+  padding: 10px;
+  display: inline-grid;
+  width: auto;
+  margin: 0px 10px 50px 10px;
+  border: 2px solid #4e3d53;
+  font-family: cursive;
+  position: relative;
+  top: 850px;
+  width: 25%;
+  background: linear-gradient(120deg, black, gray);
+  border-radius: 25px;
+  box-shadow: 3\px3px 8px #e8e8e852;
+  justify-content: space-between;
+  transition: transform 0.2s;
+
+}
+/**hover effect on gift_card**/
+Gift_card:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+card {
+  display: block;
+  font-family: Arial, Helvetica;
+  font-size: 24pt;
+  color: White;
+  font-weight: bold;
+  margin-bottom: 0px;
+  position: relative;
+  left: 20px;
+}
+gift_code {
+  display: block;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 10px;
+}
+Availability,
+category,
+owner,
+type,
+price,
+category,
+validity,
+number_of_users,delivery_code,
+discount {
+  display: block;
+  margin-top: 15px;
+  color: white;
+}
+/**designing dummy button**/
+buy {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px white;
+  color: black;
+  margin-top: 15px;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  margin-left: 150px;
+}
+buy:hover {
+  cursor: pointer;
+  transition-delay: 0.75;
+  color: black;
+  background-color: burlywood;
+}
+/**effect on click**/
+buy:active {
+  background-color: red;
+  cursor: auto;
+}
+/**designing footer section**/
+Contact {
+  display: none;
+  padding: inherit;
+  border: 2px solid white;
+  width: 400px;
+  border-radius: 20px;
+}
+owner:hover > Contact {
+  display: block !important;
+  transition: 0.4s;
+  transition-delay: 0.4s;
+  cursor: context-menu;
+}
+Telephone,
+city {
+  justify-content: center;
+}
+Footer  {
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 2500px;
+  border: 2px bold White;
+  text-align: center;
+  color: white;
+  background-color: #171c24;
+  height: 200px;
+  width: 100%;
+  margin-top:15px;
+  color: white;
+}
+list,li{
+  list-style: none;
+  margin-top:15px;
+  display: block;
+  color: white;
+  margin-left: 100px;
+
+}
+contact_,Link{
+  list-style: none;
+  margin-top:15px;
+  display: block;
+  color: white;
+  margin-left: 50px;
+}
+h3{
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 15px;
+  text-align: center;
+  white-space: nowrap;
+}

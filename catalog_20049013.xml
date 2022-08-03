@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Name : Samikshya Niraula
+London met id : 20049013
+college id : np01cp4s210091
+-->
+<?xml-stylesheet type="text/css" href="catalog_20049013.css"?>
+<!-- Refering style sheet -->
+<Store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_20049013.xsd">
+	<!-- Defining root element along with xsd declaration -->
+	<nav_bar>
+		<!-- For navigation bar -->
+		<logo>
+		</logo>
+		<store_name>
+			GIFT COSMIC
+		</store_name>
+		<tagline>
+			"Go ahead and splurge!!"
+		</tagline>
+		<menu>
+			<Home>
+				Home
+			</Home>
+			<About_us>
+				About us
+			</About_us>
+			<Products>
+				Products
+			</Products>
+			<contact_us>
+				Contact us
+			</contact_us>
+		</menu>
+	</nav_bar>
+	<welcome>
+		WELCOME TO GIFT COSMIC !
+	</welcome>
+	<!-- for information about gift store -->
+	<About_Us>
+		GIFT COSMIC is a gift card store in London, United Kingdom which sells digital gift cards or gift vouchers
+		A gift card is a form of payment that can be used to make purchases at retail stores, gas stations,
+		restaurants and other locations. You load money onto the card, which you or the gift
+		card recipient can then spend at accepted locations. There are two types of gift cards
+		physical and digital (e-gift cards) and each comes with a wide range of features and
+		benefits. Digital gift cards have no physical form; instead, you re assigned a unique gift
+		code number that you can use to redeem at online retailers when making purchases.
+	</About_Us>
+	<!-- -Associates section starts where there name of brands are defined for iamge styling purpose to create a image gallery -->
+	<Associates>
+		<h1>
+			OUR ASSOCIATES:
+		</h1>
+		<images>
+			<Rest>
+			</Rest>
+			<Amazon>
+			</Amazon>
+			<xbox>
+			</xbox>
+			<Netflix>
+			</Netflix>
+			<HB>
+			</HB>
+		</images>
+	</Associates>
+	<h2>
+		OUR PRODUCTS:
+	</h2>
+	<!-- Products section starts where different gift card attributes and properties are defined in nested elements -->
+	<PRODUCTS>
+		<Gift_card id="R-01" type="digital">
+			<card name="food1">
+				Nando's
+			</card>
+			<gift_code>
+				GIFT CODE: 04875747
+			</gift_code>
+			<Availability>
+				STATUS :Available
+			</Availability>
+			<type>
+				TYPE :Digital
+			</type>
+			<category>
+				CATEGORY : Fooding
+			</category>
+			<owner>
+				<Name>
+					OWNER:The RESTAURANT CHOICE ⬇
+				</Name>
+				<Contact>
+					<Telephone>
+						Phone: (44) 020 3678 5678
+					</Telephone>
+					<city>
+						City: Addlestone
+					</city>
+				</Contact>
+			</owner>
+			<price currency="Pound">
+				PRICE: &#163;39
+			</price>
+			<validity valid="Yes">
+				VALID TILL : 6th June
+			</validity>
+			<number_of_users>
+				NO OF USERS : 3
+			</number_of_users>
+			<discount available="Yes">
+				DISCOUNT : 15%
+			</discount>
+			<buy>
+				BUY
+			</buy>
+		</Gift_card>
+		<Gift_card id="R-02" type="physical">
+			<card name="food2">
+				Pizza Hut
+			</card>
+			<Availability>
+				STATUS :Available
+			</Availability>
+			<type>
+				TYPE :
+			</type>
+			<category>
+				CATEGORY : Fooding
+			</category>
+			<owner>
+				<Name>
+					OWNER:The RESTAURANT CHOICE ⬇
+				</Name>
+				<Contact>
+					<Telephone>
+						Phone: (44) 020 3678 5678
+					</Telephone>
+					<city>
+						City : Addlestone
+					</city>
+				</Contact>
+			</owner>
+			<price currency="Pound">
+				PRICE: &#163;50
+			</price>
+			<validity valid="Yes">
+				VALID TILL : 5th June
+			</validity>
+			<number_of_users>
+				NO OF users : 2
+			</number_of_users>
+			<discount available="No">
+				DISCOUNT:Sorry! no discount available
+			</discount>
+			<delivery_code>
+				Delivery code:D-01
+			</delivery_code>
+			<buy>
+				BUY
+			</buy>
+		</Gift_card>
+		<Gift_card id="R-03" type="digital">
+			<card name="Movie1">
+				AMAZON : 30 days unlimited movies
+			</card>
+			<gift_code>
+				GIFT CODE: 04905547
+			</gift_code>
+			<Availability>
+				STATUS :Available
+			</Availability>
+			<type>
+				TYPE :Digital
+			</type>
+			<category>
+				CATEGORY : Movie
+			</category>
+			<owner>
+				<Name>
+					OWNER:Amazon ⬇
+				</Name>
+				<Contact>
+					<Telephone>
+						Phone: (44) 020 3678 5678
+					</Telephone>
+				</Contact>
+			</owner>
+			<price currency="Rupees">
+				PRICE: Rs. 400
+			</price>
+			<validity valid="Yes">
+				VALID TILL : 8th June
+			</validity>
+			<number_of_users>
+				NO OF USERS : 34
+			</number_of_users>
+			<discount available="Yes">
+				DISCOUNT : 30%
+			</discount>
+			<buy>
+				BUY
+			</buy>
+		</Gift_card>
+		<Gift_card id="R-04" type="digital">
+			<card name="Movie2">
+				NETFLIX : 10 days unlimited movies
+			</card>
+			<gift_code>
+				GIFT CODE: 04905547
+			</gift_code>
+			<Availability>
+				STATUS :Available
+			</Availability>
+			<type>
+				TYPE :Digital
+			</type>
+			<category>
+				CATEGORY : Movie
+			</category>
+			<owner>
+				<Name>
+					OWNER:Netflix ⬇
+				</Name>
+				<Contact>
+					<Telephone>
+						Phone: (44) 028 3698 5678
+					</Telephone>
+					<city>
+						City: Buckingham
+					</city>
+				</Contact>
+			</owner>
+			<price currency="Pound">
+				PRICE: &#163;60
+			</price>
+			<validity valid="Yes">
+				VALID TILL : 6th June
+			</validity>
+			<number_of_users>
+				NO OF USERS : 34
+			</number_of_users>
+			<discount available="No">
+				Sorry!No discount available
+			</discount>
+			<buy>
+				BUY
+			</buy>
+		</Gift_card>
+		<Gift_card id="R-05" type="physical">
+			<card name="Shopping1">
+				HAMRO BAZAR DISCOUNT CARD
+			</card>
+			<Availability>
+				STATUS :Available
+			</Availability>
+			<type>
+				TYPE :physical
+			</type>
+			<category>
+				CATEGORY : Shopping
+			</category>
+			<owner>
+				<Name>
+					OWNER:Hamro Bazar ⬇
+				</Name>
+				<Contact>
+					<Telephone>
+						Phone: (977) 01- 4565774
+					</Telephone>
+					<city>
+						City : Kathmandu
+					</city>
+				</Contact>
+			</owner>
+			<price currency="Rupees">
+				PRICE: Rs.500
+			</price>
+			<validity valid="Yes">
+				VALID TILL : 8th July
+			</validity>
+			<number_of_users>
+				NO OF users : 9
+			</number_of_users>
+			<discount available="No">
+				DISCOUNT:30%
+			</discount>
+			<delivery_code>
+				Delivery code:D-02
+			</delivery_code>
+			<buy>
+				BUY
+			</buy>
+		</Gift_card>
+		<Gift_card id="R-06" type="digital">
+			<card name="Movie3">
+				NETFLIX : Asian movies for free
+			</card>
+			<gift_code>
+				GIFT CODE: 0494447
+			</gift_code>
+			<Availability>
+				STATUS :Unvailable
+			</Availability>
+			<type>
+				TYPE :Digital
+			</type>
+			<category>
+				CATEGORY : Movie
+			</category>
+			<owner>
+				<Name>
+					OWNER:Netflix ⬇
+				</Name>
+				<Contact>
+					WWW.Netflix.com
+				</Contact>
+			</owner>
+			<price currency="pound">
+				PRICE: &#163;80
+			</price>
+			<validity valid="No">
+				VALID TILL : 8th june
+			</validity>
+			<number_of_users>
+				NO OF users : 0
+			</number_of_users>
+			<discount available="No">
+				DISCOUNT:30%
+			</discount>
+			<buy>
+				Not available
+			</buy>
+		</Gift_card>
+		<Gift_card id="R-07" type="digital">
+			<card name="food3">
+				Italica
+			</card>
+			<gift_code>
+				GIFT CODE: 0487547
+			</gift_code>
+			<Availability>
+				STATUS :Available
+			</Availability>
+			<type>
+				TYPE :Digital
+			</type>
+			<category>
+				CATEGORY : Fooding
+			</category>
+			<owner>
+				<Name>
+					OWNER:The RESTAURANT CHOICE ⬇
+				</Name>
+			</owner>
+			<price currency="Pound">
+				PRICE: &#163;70
+			</price>
+			<validity valid="Yes">
+				VALID TILL : 5th July
+			</validity>
+			<number_of_users>
+				NO OF USERS : 4
+			</number_of_users>
+			<discount available="Yes">
+				DISCOUNT : 45%
+			</discount>
+			<buy>
+				BUY
+			</buy>
+		</Gift_card>
+		<Gift_card id="R-08" type="digital">
+			<card name="Game1">
+				Xbox : Dota
+			</card>
+			<gift_code>
+				GIFT CODE: 0494547
+			</gift_code>
+			<Availability>
+				STATUS :Available
+			</Availability>
+			<type>
+				TYPE :Digital
+			</type>
+			<category>
+				CATEGORY : Gaming
+			</category>
+			<owner>
+				<Name>
+					OWNER:Xbox ⬇
+				</Name>
+				<Contact>
+					WWW.Xbox.com
+				</Contact>
+			</owner>
+			<price currency="Pound">
+				PRICE:&#163;80
+			</price>
+			<validity valid="Yes">
+				VALID TILL : 8th Aug
+			</validity>
+			<number_of_users>
+				NO OF USERS : 55
+			</number_of_users>
+			<discount available="No">
+				Sorry!no discount available
+			</discount>
+			<buy>
+				BUY
+			</buy>
+		</Gift_card>
+		<Gift_card id="R-09" type="physical">
+			<card name="Movie3">
+				HAMRO BAZAR : winter voucher
+			</card>
+			<Availability>
+				STATUS :Unvailable
+			</Availability>
+			<type>
+				TYPE :physical
+			</type>
+			<category>
+				CATEGORY : shopping
+			</category>
+			<owner>
+				<Name>
+					OWNER:Hamro Bazar ⬇
+				</Name>
+			</owner>
+			<price currency="pound">
+				PRICE: &#163;90
+			</price>
+			<validity valid="No">
+				VALID TILL : 8th june
+			</validity>
+			<number_of_users>
+				NO OF users : 0
+			</number_of_users>
+			<discount available="No">
+				Sorry! No discount available
+			</discount>
+			<buy>
+				Not available
+			</buy>
+		</Gift_card>
+	</PRODUCTS>
+	<!-- Footer section starts where details of the store is present -->
+	<Footer>
+		<Cont>
+			CONTACT US :
+		</Cont>
+		<contact_>
+			<Link>
+				Facebook link : "https://www.facebook.com/sameekshya.niraula"
+			</Link>
+			<Link>
+				Instagram link : ""https://www.instagram.com"
+			</Link>
+		</contact_>
+		<list>
+			<li>
+				UK address: Buckingham, London
+			</li>
+			<li>
+				Nepal address: Kathmandu, Nepal
+			</li>
+			<li>
+				<ENG countrycode="+44">
+					London no : 097 57748 4848
+				</ENG>
+				<NEP countrycode="+977">
+					Nepal no : 01-6786595
+				</NEP>
+			</li>
+			<li>
+				Website:www.Giftcosmic.com
+			</li>
+		</list>
+	</Footer>
+</Store>
